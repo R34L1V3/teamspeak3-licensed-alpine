@@ -11,7 +11,7 @@ _A Teamspeak 3 Server Licensed built on Alpine Linux (using glibc)_
 ### Example Run on Windows
 
 ```sh
-docker run -d --name teamspeak --restart=always -p 9987:9987/udp -p 10011:10011 -v D:\teamspeak\deploy\data:/data r34l1v3/rodaine-teamspeak3-licensed-alpine
+docker run -d --name teamspeak --restart=always -p 9987:9987/udp -p 10011:10011 -v D:\teamspeak\deploy\data:/data r34l1v3/rodaine-teamspeak3-licensed-alpine:3.0.13.5
 ```
 
 The other port (30033 for FileManager) can be exposed
@@ -21,5 +21,5 @@ however the host ports will be random.
 ### Example Run on Linux
 
 ```sh
-docker run -d --name teamspeak --restart=always -p 9987:9987/udp -p 10011:10011 -v /opt/teamspeak/deploy/data:/data r34l1v3/rodaine-teamspeak3-licensed-alpine
+docker run -d --name teamspeak --restart=always -p 9987:9987/udp -p 10011:10011 -v /opt/teamspeak/deploy/data:/data r34l1v3/rodaine-teamspeak3-licensed-alpine:3.0.13.5
 ```
