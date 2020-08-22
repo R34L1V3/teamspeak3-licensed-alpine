@@ -2,7 +2,7 @@
 
 _A Teamspeak 3 Server Licensed built on Alpine Linux (using glibc)_
 
-* Teamspeak3 v3.0.13.5 (8 Nov 2016)
+* Teamspeak3 v3.0.13.5 (24 OCT 2016)
 * Lightweight image (<25MB)
 * SQLite only
 * Easy, optional voluming of logs, db, and query_ip_*list.txt files
